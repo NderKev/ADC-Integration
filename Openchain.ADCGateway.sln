@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openchain.ADCGateway", "Openchain.ADCGateway\Openchain.ADCGateway.csproj", "{A89ED40D-D051-42B9-AEF5-76379EF5E42E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openchain.ADCGateway.module", "Openchain.ADCGateway.module\Openchain.ADCGateway.module.csproj", "{6AAC1573-AB22-4964-8D25-9D09BFBD1BA3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A89ED40D-D051-42B9-AEF5-76379EF5E42E} = {A89ED40D-D051-42B9-AEF5-76379EF5E42E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A89ED40D-D051-42B9-AEF5-76379EF5E42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89ED40D-D051-42B9-AEF5-76379EF5E42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89ED40D-D051-42B9-AEF5-76379EF5E42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89ED40D-D051-42B9-AEF5-76379EF5E42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAC1573-AB22-4964-8D25-9D09BFBD1BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAC1573-AB22-4964-8D25-9D09BFBD1BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAC1573-AB22-4964-8D25-9D09BFBD1BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAC1573-AB22-4964-8D25-9D09BFBD1BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
